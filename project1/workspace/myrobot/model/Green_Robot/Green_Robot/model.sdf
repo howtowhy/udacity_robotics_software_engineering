@@ -98,7 +98,7 @@
       </collision>
     </link>
     <link name='link_1_clone'>
-      <pose frame=''>0 0.781457 0.003711 -1.55458 0 0</pose>
+      <pose frame=''>-0 0.781457 0.003711 -1.55458 0 0</pose>
       <inertial>
         <mass>0.00604226</mass>
         <inertia>
@@ -312,7 +312,7 @@
     </joint>
     <joint name='link_0_JOINT_5' type='fixed'>
       <parent>link_0</parent>
-      <child>link_1_clone_clone</child>
+      <child>link_1_clone</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <physics>
         <ode>
