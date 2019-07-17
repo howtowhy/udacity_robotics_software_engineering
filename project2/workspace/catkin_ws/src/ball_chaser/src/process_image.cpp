@@ -31,7 +31,7 @@ void process_image_callback(const sensor_msgs::Image img)
     // TODO: Loop through each pixel in the image and check if there's a bright white one
 
     for (int i = 0; i < img.height * img.step; i += 3) {
-        if (img.data[i]==white_pixel) {
+        if ((img.data[i]==white_pixel)&&(img.data[i+1]==white_pixel)&&(img.data[i+2]==white_pixel)) {
             isthere = true;
             now_pixel = i;
             ROS_INFO_STREAM("FIND IT");
