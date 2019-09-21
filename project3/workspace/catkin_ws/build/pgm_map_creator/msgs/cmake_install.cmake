@@ -1,8 +1,8 @@
-# Install script for directory: /home/nvidia/udacity_robotics_software_engineering/project3/workspace/catkin_ws/src/pgm_map_creator/msgs
+# Install script for directory: /home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/src/pgm_map_creator/msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nvidia/udacity_robotics_software_engineering/project3/workspace/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

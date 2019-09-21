@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/nvidia/udacity_robotics_software_engineering/project3/workspace/catkin_ws/build"
+export CMAKE_PREFIX_PATH="/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nvidia/udacity_robotics_software_engineering/project3/workspace/catkin_ws/src:/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/src:$ROS_PACKAGE_PATH"

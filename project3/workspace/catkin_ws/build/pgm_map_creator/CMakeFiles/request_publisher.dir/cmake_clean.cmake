@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/request_publisher.dir/src/request_publisher.cc.o"
-  "/home/nvidia/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel/lib/pgm_map_creator/request_publisher.pdb"
-  "/home/nvidia/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel/lib/pgm_map_creator/request_publisher"
+  "/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel/lib/pgm_map_creator/request_publisher.pdb"
+  "/home/workspace/udacity_robotics_software_engineering/project3/workspace/catkin_ws/devel/lib/pgm_map_creator/request_publisher"
 )
 
 # Per-language clean rules from dependency scanning.
