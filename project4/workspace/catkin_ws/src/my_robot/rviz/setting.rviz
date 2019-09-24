@@ -6,8 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /LaserScan1
         - /Map1
-        - /Map1/Status1
       Splitter Ratio: 0.5
     Tree Height: 210
   - Class: rviz/Selection
@@ -190,7 +190,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 187.839325
+      Distance: 11.2824993
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
@@ -228,5 +228,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1869
-  X: 50
-  Y: -2
+  X: 49
+  Y: -28

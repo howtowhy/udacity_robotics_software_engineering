@@ -15,7 +15,7 @@
 
     <!-- If you choose to define initial pose here -->
     <param name="initial_pose_x" value="0"/>
-    <param name="initial_pose_y" value="5"/>
+    <param name="initial_pose_y" value="0"/>
     
     <!--filter-->
     <param name="min_particles" value="200"/>
@@ -39,7 +39,7 @@
     <param name="odom_alpha4" value="0.1"/>
     
   </node>
-
+   <node pkg="tf" type="static_transform_publisher" name="tf_static_pub" args="0 0 0 0 0 0.7071 -0.7071 map odom 100" />
     <!--move base--> 
   <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
     <!--remap topics-->
@@ -57,6 +57,6 @@
     <rosparam file="$(find my_robot)/config/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find my_robot)/config/base_local_planner_params.yaml" command="load" />
   </node>
-  <node pkg="tf" type="static_transform_publisher" name="tf_static_pub" args="0 0 0 0 0 0.7071 -0.7071 map odom 100" />
+ 
   
 </launch>
